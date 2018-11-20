@@ -1,0 +1,97 @@
+.izquierda{
+background: #2c3e50;
+}
+.boletas{
+    padding-top: 5px;
+}
+
+.table-wrapper-scroll-y {
+  display: block;
+  max-height: 220px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+table.boletas{
+    background-color: white;
+    text-align: center;
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 70%;
+    border: solid 3px #0016b0;
+}
+table.boletas th, table.boletas td{
+    padding: 5px;
+}
+table.boletas thead{
+    background-color: #99CC99;
+    border-bottom: solid 5px #0f362d;
+    color: white;
+}
+
+table.boletas tr:nth-child(even){
+    background-color: #ddd;
+}
+
+table.boletas tr:hover td{
+    background-color: #369681;
+    color:white;
+}
+
+.btn{   
+    cursor: pointer;
+}
+.btn:hover {
+    color: #1883ba;
+    background-color: #ffffff;
+}
+.container{
+    padding-top: 15px;
+}
+
+table.cuentas{
+    text-align: center;
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 70%;
+}
+table.cuentas th,table.cuentas td{
+    padding: 5px;
+}
+
+table.cuentas tr:last-child{
+    border-top: solid 3px #000;
+}
+
+table.info{
+    background-color: white;
+    text-align: center;
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 70%;
+    border: solid 3px #0016b0;
+}
+
+table.info th,  table.info td{
+    padding: 5px;
+}
+
+table.info thead{
+    background-color: #99CC99;
+    border-bottom: solid 5px #0f362d;
+    color: white;
+}
+
+table.info tr:nth-child(even){
+    background-color: #ddd;
+}
+
+.seleccion{
+    font: 1em Arial;
+    background-color: white;
+    color: black;
+    width: 45px;
+    border: 0px solid;
+    font: 1em Arial;
+    text-align: center;
+}

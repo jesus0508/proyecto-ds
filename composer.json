@@ -1,0 +1,16 @@
+{
+    "name": "unmsm.fisi/proyecto",
+    "description": "Proyecto desarrollado para el curso de Disenio de Sistemas",
+    "type": "project",
+    "require": {
+        "mongodb/mongodb": "^1.4@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jesus Alarcon",
+            "email": "jesus.alarcon3@unmsm.edu.pe"
+        }
+    ],
+    "minimum-stability": "dev"
+}

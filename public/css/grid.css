@@ -1,0 +1,78 @@
+html,body{
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    min-width: 360px;
+}
+
+body>*{
+    padding: 20px;
+    /*text-align: center;*/
+    color: black;
+}
+/*
+header{
+    background-color: #369;
+}
+
+nav{
+    background-color: #f90;
+}
+
+aside{
+    background: #936;
+}
+
+footer{
+    background-color: #690;
+}
+*/
+main{
+    flex: 1;
+    background-color: #f5f5f5;
+}
+
+/*https://codepen.io/pen/*/
+@media screen and (min-width: 768px){
+    body{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: auto 1fr auto;
+    }
+
+    header{
+        grid-column: 1/span 12;
+    }
+
+    nav{
+        grid-column: 1/2;
+    }
+
+    main{
+        grid-column: span 10/12;
+    }
+
+    aside{
+        grid-column: 12/13;
+    }
+
+    footer{
+        grid-column: 1/13;
+    }
+}
+
+@media screen and (min-width: 992px){
+    nav{
+        grid-column: 1/ span 2;
+    }
+
+    main{
+        grid-column: span 8/11;
+    }
+
+    aside{
+        grid-column: span 2/13;
+    }
+
+}

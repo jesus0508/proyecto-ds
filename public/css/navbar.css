@@ -1,0 +1,53 @@
+.opcion{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#ddd;
+    /*outline: 1px solid red;*/
+    display: block;
+    
+}
+nav{
+    background-color: #1e2129;
+    /*flex-basis: 100%;*/
+    line-height: 2rem;
+    padding: 0px;
+    /*outline: 1px solid green;*/
+    background: url(../img/dark-material-bg.jpg) 0 45%/cover no-repeat;
+}
+.menu li{
+    padding: 1rem;
+    box-shadow: 5px 0 rgba(255,255,255,.2) inset;
+    transition: all .4s;
+    list-style: none;
+}
+
+.menu li:hover{
+    box-shadow: 50rem 0 rgba(255,255,255,.2) inset;
+}
+
+.menu:first-child{
+    padding-top: 1rem;
+}
+
+.opcion i{
+    font-size: 1.4rem;
+}
+
+@media screen and (min-width: 768px){
+    .opcion span{
+        display: none;
+    }
+    .opcion {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 1195px){
+    .opcion span{
+        display: inline-block;
+    }
+    .opcion{
+        text-align: left;
+    }
+}

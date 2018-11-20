@@ -1,0 +1,67 @@
+header {
+    background-color: #343a40;
+    display: flex;
+    width: 100%;
+    padding: 5px;
+}
+
+.logo-container {
+    background: transparent;
+    flex-grow: 1;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-container {
+    display: inline-block;
+}
+
+.avatar {
+    display: inline-block;
+}
+
+.user-container .nombre {
+    display: block;
+}
+
+.user-container .rol {
+    display: block;
+    text-align: center;
+}
+
+.opciones-container {
+    flex-grow: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notificaciones {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+    /*justify-content: space-between;*/
+}
+
+.notificaciones a {
+    margin: 0 10px 0 10px;
+    color: white;
+
+}
+
+.nombre {
+    color: white;
+}
+
+.rol {
+    color: #ACACAC;
+    font-size: 12px;
+}
+
+.icon {
+    color: white;
+}

@@ -1,0 +1,63 @@
+.keyboard{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr) 2fr;
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 5px;
+    flex-grow: 0.5;
+}
+
+.display{
+    grid-column: 1/5;
+}
+
+.button-ok{
+    grid-area: 2/4/4/4;
+    font-size: 2rem;
+}
+
+.number, .button-ok, .button-back, .button-cancel{
+    /*background-color: transparent;*/
+    background:#fff;                /* Color de las teclas */
+    border:1px solid #cacaca;       /* Borde de las teclas */
+    border-radius: 5px 5px 5px 5px;       /* Borde redondeado de las teclas*/ 
+    color: black;                   
+    font-size: 20px;
+    cursor: pointer;                    /*Cambia el tipo de cursos NINGUA UTILIDAD*/
+}
+
+.number:hover{
+    background-color:#FFD488;
+    border-color: #ff994b;
+    /*font-weight: bold;*/
+}
+
+.button-ok:hover{
+    background-color: #2cdd9b;
+}
+
+.button-cancel:hover{
+    background-color:#ff3c7e;
+}
+
+.button-back:hover{
+    background-color:#FFD488;
+}
+
+
+
+
+
+
+
+/*--CONSULTAR https://codepen.io/JeisonJ/pen/EQPbQO 
+
+.keyboard3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+*/
